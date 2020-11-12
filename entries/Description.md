@@ -1,0 +1,2 @@
+#Description
+This is a wikipedia-like website which features a few pages that can be edited, and also the ability to create new pages of your own and search for already existing ones. There also is a link for another project of mine featuring mostly html and css in the left sidebar.

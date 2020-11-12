@@ -1,0 +1,34 @@
+{%load static %}
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <link rel="stylesheet" href="{% static 'google/advanced.css' %}">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+        <title>Advanced</title>
+        
+    </head>
+    <body>
+        <div id="top"></div>
+        <h1 id="Advanced">Advanced Search</h1>
+        <div id="photo">
+            <img src="{% static 'google/google.png' %}" alt="Not available">
+        </div>
+        <hr></hr>
+        <h2 id="aa">Find pages with...</h2>
+        <h3 id="a1">all these words:</h3>
+        <h3 id="a2">this exact word or phrase:</h3>
+        <h3 id="a3">any of these words:</h3>
+        <h3 id="a4">none of these words:</h3>
+
+        <form action="https://google.com/search">
+            <input id="b1" type="text" name="as_q">
+            <input id="b2" type="text" name="as_epq">
+            <input id="b3" type="text" name="as_oq">
+            <input id="b4" type="text" name="as_eq">
+            <p></p>
+            <input type="submit" value="Advanced Search">
+        </form>
+         <a href="{% url 'images' %}" style="color: #282121; right: 120px;">Images</a>
+         <a href="{% url 'default' %}" style="color: #282121; right: 60px;">Search</a>
+    </body>
+</html>

@@ -1,0 +1,85 @@
+body{
+    text-align: center;
+}
+
+/* SEARCH BAR AND BUTTON */
+
+#photo{
+    text-align:center;
+    position:relative;
+    top:198px;
+}
+
+#itext{
+    color: #478eeb;
+    position:absolute;
+    top:272px;
+    left:1039px;
+    font-size:17px;
+    font-weight: 400;
+    font-family: sans-serif,Arial,Helvetica;
+}
+
+form{
+    text-align: center;
+    position: relative;
+    top: 227px;
+}
+input[type="text"]{
+    width: 580px;
+    height: 40px;
+    border-width: 1px;
+    border-radius: 20px;
+    border-color: #c8c6c6;
+    border-style: solid;
+    padding-left: 14px;
+    padding-right: 14px;
+}
+
+input:focus[type="text"],input:hover[type="text"]{
+    outline: 0px;
+    box-shadow: 1px 1px 4px 1px #c8c6c6;
+}
+
+input[type="submit"]{
+    top: 10px;
+    border-width: 0px;
+    position: relative;
+    text-align: center;
+    color: #756e6e;
+    border-radius: 4px;
+    height: 37px;
+    width: 130px;
+    font-family: sans-serif,Arial,Helvetica;
+    font-size: 15px;
+}
+input[value="I'm Feeling Lucky"]{
+    left:8px;
+    width:140px;
+}
+
+input[type="submit"]:hover,input[type="submit"]:focus{
+    border-style: solid;
+    box-shadow: 0px 0.5px 0px 0px #c8c6c6;
+    background-color: #f5f5f5;
+}
+input[type="submit"]:hover{
+    border-width: 1px;
+    border-color: rgb(206, 199, 199);
+}
+input[type="submit"]:focus{
+    outline:none;
+    border-width: 1.2px;
+    border-color: #719feb;
+}
+
+
+/* BUTTONS TOP RIGHT */
+
+a{
+    position:absolute;
+    top:18px;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+

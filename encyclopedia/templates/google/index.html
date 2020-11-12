@@ -1,0 +1,23 @@
+{%load static %}
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <link href="{% static 'google/styles.css' %}" rel="stylesheet">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+        <title>Search</title>
+        
+    </head>
+    <body>
+        <div id="photo">
+            <img src="{% static 'google/google.png' %}" alt="Not available">
+        </div>
+        <form action="https://google.com/search">
+            <input type="text" name="q">
+            <p></p>
+            <input type="submit" value="Google Search">
+            <input type="submit" name="btnI" value="I'm Feeling Lucky">
+        </form>
+         <a id="first" href="{% url 'images' %}" style="color: #282121; right: 140px;">Images</a>
+         <a id="second" href="{% url 'advanced' %}" style="color: #282121; right: 60px;">Advanced</a>
+    </body>
+</html>
