@@ -14,14 +14,15 @@ class NewTaskForm(forms.Form):
     edit = forms.BooleanField(initial=False, widget=forms.HiddenInput(), required=False)
 
 def index(request):
-    return render(request, "encyclopedia/index.html", {
-        "entries": util.list_entries()
-    })
+    return render(request, "encyclopedia/port.html")
 
 def wiki(request):
     return render(request, "encyclopedia/index.html", {
         "entries": util.list_entries()
     })
+
+def back(request):
+    return HttpResponseRedirect(reverse('index'))
 
 def default(request, wiki):
     ok=0

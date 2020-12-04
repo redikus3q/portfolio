@@ -1,0 +1,71 @@
+#photo{
+    position: relative;
+    margin-top: 0px;
+    width: auto;
+    height: auto;
+}
+
+#mail{
+    position: absolute;
+    left: 61%;
+    top: 48%;
+    width: 1%;
+    height: auto;
+    transform: translate(-50%, -50%);
+}
+#nume{
+    font-family: Helvetica, sans-serif;
+    position: absolute;
+    top: 12%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 80px;
+    color: white;
+}
+
+#portf{
+    font-family: Helvetica, sans-serif;
+    position: absolute;
+    top: 22%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 80px;
+    color: white;
+}
+
+#contact{
+    position: absolute;
+    top: 45%;
+    left: 62%;
+    transform: translate(-50%, -50%);
+    font-size: 25px;
+    color: white;
+}
+
+
+#email{
+    position: absolute;
+    top: 48%;
+    left: 67.5%;
+    transform: translate(-50%, -50%);
+    font-size: 20px;
+    color: white;
+}
+
+#past{
+    position: absolute;
+    top: 45%;
+    left: 33%;
+    font-size: 50px;
+    transform: translate(-50%, -50%);
+}
+
+ul{
+    position: absolute;
+    top:470px;
+    left:530px;
+    font-size: 30px;
+}
+body{
+    margin:0;
+}
