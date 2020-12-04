@@ -7,5 +7,4 @@ from . import views
 urlpatterns = [
     path('admin/', admin.site.urls),
     path("", include("encyclopedia.urls")),
-    path("google/", include("google.urls")),
 ]

@@ -18,6 +18,11 @@ def index(request):
         "entries": util.list_entries()
     })
 
+def wiki(request):
+    return render(request, "encyclopedia/index.html", {
+        "entries": util.list_entries()
+    })
+
 def default(request, wiki):
     ok=0
     for i in util.list_entries():
