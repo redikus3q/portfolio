@@ -16,6 +16,9 @@ class NewTaskForm(forms.Form):
 def index(request):
     return render(request, "encyclopedia/port.html")
 
+def flights(request):
+    return render(request, "flights/flights.html")
+
 def wiki(request):
     return render(request, "encyclopedia/index.html", {
         "entries": util.list_entries()

@@ -1,0 +1,107 @@
+body{
+    background-color:white;
+}
+html{
+    margin: 0px;
+}
+img{
+    position: absolute;
+    left:0%;
+    top:0%;
+    width: 100%;
+    height: auto;
+    z-index: -5;
+    opacity: 0.1;
+}
+h1{
+    position: relative;
+    text-align: center;
+    top:200px;
+}
+li{
+    position: relative;
+    top:200px;
+    text-align: center;
+    font-weight: 500;
+    text-decoration: none;
+    font-size: large;
+    list-style-type: none;
+}
+#flights{
+    position: relative;
+    left:-20px;
+}
+
+h3{
+    position: relative;
+    top:224px;
+    text-align: center;
+}
+
+#book{
+    position: relative;
+    top:230px;
+    text-align: center;
+}
+
+#back{
+    position: relative;
+    top:250px;
+    left:46.5%;
+    font-weight: 600;
+}
+h2{
+    position: relative;
+    top:200px;
+    text-align: center;
+}
+#pass{
+    position: relative;
+    top:20px;
+    text-align: center;
+}
+
+#log{
+    font-weight: 700;
+    position: absolute;
+    left:95%;
+    top:6px;
+}
+
+#title{
+    position: relative;
+    left:93%;
+    top:6px;
+    font-weight: 600;
+}
+#info{
+    position: relative;
+    text-align: center;
+    left:-20px;
+}
+#logout{
+    position: relative;
+    top:200px;
+    left:48%;
+    font-weight: 600; 
+    font-size: larger;
+}
+
+#frm{
+    text-align: center;
+    position: relative;;
+    top:380px;
+}
+h4{
+    position: relative;
+    text-align: center;
+    top:340px;
+    font-size: 50px;
+}
+
+#backport{
+    position: relative;
+    top:8px;
+    left:8px;
+    font-weight: 600;
+}
