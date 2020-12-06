@@ -69,7 +69,7 @@ h2{
 }
 
 #title{
-    position: relative;
+    position: absolute;
     left:93%;
     top:6px;
     font-weight: 600;
@@ -104,4 +104,9 @@ h4{
     top:8px;
     left:8px;
     font-weight: 600;
+}
+#logo{
+    position: relative;
+    left:8px;
+    top:4px;
 }

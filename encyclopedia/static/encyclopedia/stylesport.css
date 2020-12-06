@@ -70,12 +70,14 @@
     font-weight: 500;
 }
 #github{
-    position: absolute;
-    top: 49.2%;
+    position: relative;
+    top: -609px;
     left: 61.8%;
     font-size: 20px;
     color: white;
     font-weight: 500;
+    z-index: 5;
+
 }
 #github:hover{
     color: rgb(182, 177, 177);
