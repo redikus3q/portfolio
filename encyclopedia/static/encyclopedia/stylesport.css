@@ -1,97 +1,78 @@
-#photo{
-    position: relative;
-    margin-top: 0px;
-    width: auto;
-    height: auto;
+.header{
+    height: 24vw;
 }
 
-#mail{
-    position: absolute;
-    left: 61%;
-    top: 48%;
-    width: 1%;
-    height: auto;
-    transform: translate(-50%, -50%);
-}
-#git{
-    display: inline-block;
-    position: absolute;
-    left: 61%;
-    top: 51%;
-    width: 1%;
-    height: auto;
-    transform: translate(-50%, -50%);
-}
-#nume{
+#nume, #portf{
     font-family: Helvetica, sans-serif;
-    position: absolute;
-    top: 12%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    font-size: 80px;
+    font-size: 5.5vw;
     color: white;
+    text-align: center;
+    top: 4vw;
 }
 
-#portf{
-    font-family: Helvetica, sans-serif;
+ul{
     position: absolute;
-    top: 22%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    font-size: 80px;
-    color: white;
+    left: 18vw;
+    top:25vw;
+    font-size: 1.7vw;
+    width: 55vw;
 }
 
-#contact{
-    position: absolute;
-    top: 45%;
-    left: 62%;
-    transform: translate(-50%, -50%);
-    font-size: 25px;
-    color: white;
+ul h4{
+    font-size: 1vw;
 }
-
-
-#email{
-    position: absolute;
-    top: 48%;
-    left: 67.5%;
-    transform: translate(-50%, -50%);
-    font-size: 20px;
-    color: white;
-}
-
 #past{
     position: absolute;
-    top: 45%;
-    left: 33%;
-    font-size: 50px;
-    transform: translate(-50%, -50%);
+    top: 19vw;
+    left: 24vw;
+    font-size: 4vw;
     font-weight: 500;
 }
-#github{
-    position: relative;
-    top: -609px;
-    left: 61.8%;
-    font-size: 20px;
-    color: white;
-    font-weight: 500;
-    z-index: 5;
 
+#mail, #git{
+    position: absolute;
+    left: 61vw;
+    width: 1%;
+    height: auto;
+    transform: translate(-50%, -50%);
+}
+#mail{
+    top: 23.5vw;
+}
+#git{
+    top: 24.8vw;
+}
+
+#email, #github{
+    color: white;
+    position: absolute;
+    font-size: 1vw;
+    font-weight: 500;
+}
+
+#email{
+    left: 67.3vw;
+    top: 23.4vw;
+    transform: translate(-50%, -50%);
+}
+#github{
+    left: 61.9vw;
+    z-index: 1;
 }
 #github:hover{
     color: rgb(182, 177, 177);
     text-decoration: none;
 }
-ul{
+
+#contact{
     position: absolute;
-    top:470px;
-    left:530px;
-    font-size: 30px;
+    top: 21.1vw;
+    left: 63.8vw;
+    font-size: 1.4vw;
+    color: white;
 }
 body{
-    margin:0;}
-h1,h2,h3,h4,ul,a,#git,#mail{
+    margin:0;
     -webkit-animation: fadein 2s; /* Safari, Chrome and Opera > 12.1 */
        -moz-animation: fadein 2s; /* Firefox < 16 */
         -ms-animation: fadein 2s; /* Internet Explorer */
@@ -125,4 +106,10 @@ h1,h2,h3,h4,ul,a,#git,#mail{
 @-o-keyframes fadein {
     from { opacity: 0; }
     to   { opacity: 1; }
+}
+
+@media (max-width: 210px){
+    #nume, #portf{
+        font-size: 4vw;
+    }
 }
