@@ -26,7 +26,10 @@ SECRET_KEY = '^janh*e9xci^zkq*)of_y3slrw8_tpjnb0+8m0v&25qvw@!%u4'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = [
+    '0.0.0.0',
+    'https://wikired.herokuapp.com/'
+]
 
 
 # Application definition
