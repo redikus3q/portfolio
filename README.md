@@ -1,5 +1,5 @@
 # Portfolio
-[Django](https://www.djangoproject.com/) website that contains two applications, made using CSS, HTML and Python. It contains a wikipeda-like website and a flight database. The first application has a locally stored database of articles that the user can interact with, a markdown parser and also a search button. The second one features a locally stored database of flights that the user can interact with and an admin panel that can be accessed using the correct credentials; It can be used to add/edit flights
+[Django](https://www.djangoproject.com/) website that contains two applications, made using CSS, HTML and Python. It contains a wikipeda-like website and a flight database. The first application has a locally stored database of articles that the user can interact with, a markdown parser and also a search button. The second one features a locally stored database of flights that the user can interact with and an admin panel that can be accessed using the correct credentials; It can be used to add/edit flights.
 
 
 Available at https://wikired.herokuapp.com/. Might take longer to load.
