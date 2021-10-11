@@ -28,7 +28,7 @@ DEBUG = True
 
 ALLOWED_HOSTS = [
     '0.0.0.0',
-    'https://wikired.herokuapp.com/'
+    'wikired.herokuapp.com'
 ]
 
 
